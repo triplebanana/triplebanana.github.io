@@ -1,32 +1,28 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Banana Browser
 
 # App Info
-ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
-
-appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
-                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
-
-app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
-
-enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+ios_app_id                                :
+appstore_link                             :
+playstore_link                            : https://play.google.com/store/apps/details?id=org.triple.banana
+presskit_download_link                    :
+app_icon                                  : /assets/app_icon.svg
+app_name                                  : Banana Browser
+app_price                                 : Safer, faster, and more stable
+app_description                           : Banana Browser is a fast, easy to use, secure browser based on the world's most widely used Chromium. It brings you various extended features such as Adblock, Privacy Protection, and so on.
+enable_smart_app_banner                   : true
 
 
 
 # Information About Yourself
-your_name                                 : Emil Baehr                                
-your_link                                 : https://emilbaehr.com                     
-your_city                                 : Copenhagen                                
-email_address                             : emil.baehr@gmail.com
-facebook_username                         :                                           
-instagram_username                        : ebaehr
-twitter_username                          : ebaehr
-github_username                           : emilbaehr
+your_name                                 : Banana team
+your_link                                 : https://triplebanana.dev
+your_city                                 : Austria
+email_address                             : org.triple.banana@gmail.com
+facebook_username                         :
+instagram_username                        :
+twitter_username                          :
+github_username                           :
 youtube_username                          :
 
 
@@ -34,45 +30,45 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
+  - title                                 : Adblock
+    description                           : We have a built-in Ad Blocker. It blocks ads on sites that show intrusive or misleading ads.
+    fontawesome_icon_name                 : ban
     
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+  - title                                 : Secure DNS over HTTP(S)
+    description                           : We support a built-in Secure DNS. You can bypass website blocks using Secure DNS over HTTPS.
+    fontawesome_icon_name                 : user-secret
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
+  - title                                 : Secure Login
+    description                           : We support a secure login using additional authentication(e.g. Fingerprint, Pattern, PIN and so on) on web sites.
+    fontawesome_icon_name                 : sign-in-alt
+
+  - title                                 : Dark Mode
+    description                           : We have a built-in Dark Mode. You can easily switch the UI and web pages to a dark theme with one click.
+    fontawesome_icon_name                 : moon
+
+  - title                                 : Toolbar Editor
+    description                           : You can personalize your browsing experience rearranging frequently used buttons on the bottom toolbar.
+    fontawesome_icon_name                 : grip-horizontal
+  
+  - title                                 : Data Saving Mode
+    description                           : We have a built-in data saving mode to reduce mobile data. It loads pages faster and use up to 60% less data.
+    fontawesome_icon_name                 : wifi
+
+  - title                                 : External Download Manager
+    description                           : We support external download manager such as IDM / ADM as well as built-in download manager.
+    fontawesome_icon_name                 : download
+
+  - title                                 : Extended Media Player
+    description                           : We have built-in powerful extend media player(e.g. PIP mode) for video elements on fullscreen mode.
     fontawesome_icon_name                 : play-circle
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
+  - title                                 : Browser Lock
+    description                           : When opening our Banana Browser, you can use additional authentications to protect your personal data securely.
+    fontawesome_icon_name                 : lock
 
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
-  
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
-
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
-
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
-
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
-
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+  - title                                 : Privacy & Security
+    description                           : Protect your privacy online with strong security features provided by Banana Browser
+    fontawesome_icon_name                 : shield-alt
 
 
 
@@ -98,8 +94,8 @@ app_description_color                     : "#ffffff"
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"
 
-feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#e6e6e6"
+feature_icons_foreground_color            : "#ffdc14"
+feature_icons_background_color            : "#571cce"
 
 social_icons_foreground_color             : "#666666"
 social_icons_background_color             : "#e6e6e6"
